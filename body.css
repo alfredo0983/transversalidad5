@@ -1,0 +1,81 @@
+body{
+    background-color: rosybrown;
+}
+img{
+	width: 250px
+}
+
+h3{
+	text-align: center;
+}
+
+
+.main{
+    background: #61364b;
+    color: #000;
+
+}
+th{
+	font-size: 13px; font-weight: normal; padding: 8px; background: #b9c9fe;
+	border-top: 4px solid #aabcfe; border-bottom: 1px solid #fff; color: #039;
+}
+
+td{
+	padding: 8px; background: #e8edff; border-bottom: 1px solid #fff;
+	color: #669; border-top: 1px solid transparent;
+}
+
+tr:hover td {
+	background:#d0dafd; color: #339;
+}
+
+p{
+	text-align: center;
+}
+
+
+.banner{
+    width: 700px;
+    height: 300px;
+    border: 3px solid black;
+    margin: auto;
+    background-size: 100% 100%;
+    animation: banner 10s infinite;
+    animation-direction: alternate;
+    }
+    
+
+    #header{
+  margin-bottom: 0;
+  padding: 30px 0 ;
+}
+
+
+#header .navbar {
+  background: #fff;
+  border: 0;
+  margin-bottom: 0;
+}
+
+#header .navbar-brand{
+  padding: 0;
+  margin-left: 0;
+}
+
+#header .navbar-brand h1{
+  padding: 0;
+  margin: 0;
+}
+
+#header .navbar-nav.navbar-right >li:last-child{
+  margin-right: 20px;
+}
+
+#header .navbar-nav.navbar-right >li a {
+  color: #000;
+  font-size: 12px;
+  padding: 20px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+    
